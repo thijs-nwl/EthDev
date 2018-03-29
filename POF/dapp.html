@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Project</title>
+    <link rel="stylesheet" href="styles/dapp.css">
+    <script type="text/javascript" src="./node_modules/web3/dist/web3.min.js"></script>
+    <script src="https://unpkg.com/ipfs/dist/index.js"></script>
+    <script type="text/javascript">
+      const node = new Ipfs({ repo: 'ipfs-' + Math.random() })
+      node.once('ready', () => {
+        console.log('Online status: ', node.isOnline() ? 'online' : 'offline')
+      })
+    </script>
+  </head>
+  <body>
+    <form id="selectDef">
+      <button id="selectDefBtn" type="button" name="button">set defaultAccount</button>
+      <input id="selectDefVal" type="text" name="setVal" placeholder="index" value="">
+      <p id="currDefAcc"><p>
+    </form>
+    <div id="Me">
+      <ul id="info">
+        <li id="user"></li>
+        <li id="coins"></li>
+        <li id="ethAddr"></li>
+      </ul>
+    </div>
+    <h2 id="sub"></h2>
+    <form id="createMe">
+        <h1>Create User</h1>
+        <button type="button" id="c_1" name="button">Create user</button>
+        <input  type="text" id="cinput_1" name="setVal" placeholder="Username" value="">
+        <div id="coutput"></div>
+    </form>
+    <div id="app">
+      <div id="bank">
+        <form id="transfer">
+          <input type="text" id="tRec" name="" placeholder="receipient address" value="">
+          <input type="text" id="tAmount" name="" placeholder="amount of coins you want to send" value="">
+          <button id="tBtn"type="button" name="button">Send</button>
+        </form>
+      </div>
+    </div>
+  </body>
+  <script type="text/javascript">
+
+  </script>
+  <script type="text/javascript" src="scripts/dapp.js"></script>
+</html>

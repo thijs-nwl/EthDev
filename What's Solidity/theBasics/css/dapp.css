@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+  background-color: #212121;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
+
+body * {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  color: #8e8e8e;
+}
+
+body h1 {
+  font-size: 300%;
+}
+
+body button {
+  display: block;
+  padding: 10px 20px;
+  margin-left: 5px;
+  margin-top: 20px
+}

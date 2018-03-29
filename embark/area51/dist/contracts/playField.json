@@ -1,0 +1,128 @@
+{
+  "contract_name": "PlayField",
+  "address": "0x9015285d1c8162fe244e4235cf98d15d8ad5148d",
+  "code": "6060604052341561000f57600080fd5b6102288061001e6000396000f3006060604052361561007f5763ffffffff7c01000000000000000000000000000000000000000000000000000000006000350416626b8b1481146100845780632a1afcd91461009c57806360fe47b1146100c15780636193c91b146100d75780636d4ce63c146100ea5780638da5cb5b146100fd5780638fdb718914610139575b600080fd5b341561008f57600080fd5b61009a60043561014c565b005b34156100a757600080fd5b6100af610186565b60405190815260200160405180910390f35b34156100cc57600080fd5b61009a60043561018c565b34156100e257600080fd5b6100af6101a6565b34156100f557600080fd5b6100af6101cf565b341561010857600080fd5b6101106101d5565b60405173ffffffffffffffffffffffffffffffffffffffff909116815260200160405180910390f35b341561014457600080fd5b61009a6101f1565b6001556002805473ffffffffffffffffffffffffffffffffffffffff19163373ffffffffffffffffffffffffffffffffffffffff16179055565b60015481565b60018190558060405190815260200160405180910390a050565b73ffffffffffffffffffffffffffffffffffffffff331660009081526020819052604090205490565b60015490565b60025473ffffffffffffffffffffffffffffffffffffffff1681565b6001805460020290555600a165627a7a72305820f12704c74d44d0c589032b63ce11a16c2106ab2d635e276eb8c4126931a1af7f0029",
+  "runtime_bytecode": "6060604052361561007f5763ffffffff7c01000000000000000000000000000000000000000000000000000000006000350416626b8b1481146100845780632a1afcd91461009c57806360fe47b1146100c15780636193c91b146100d75780636d4ce63c146100ea5780638da5cb5b146100fd5780638fdb718914610139575b600080fd5b341561008f57600080fd5b61009a60043561014c565b005b34156100a757600080fd5b6100af610186565b60405190815260200160405180910390f35b34156100cc57600080fd5b61009a60043561018c565b34156100e257600080fd5b6100af6101a6565b34156100f557600080fd5b6100af6101cf565b341561010857600080fd5b6101106101d5565b60405173ffffffffffffffffffffffffffffffffffffffff909116815260200160405180910390f35b341561014457600080fd5b61009a6101f1565b6001556002805473ffffffffffffffffffffffffffffffffffffffff19163373ffffffffffffffffffffffffffffffffffffffff16179055565b60015481565b60018190558060405190815260200160405180910390a050565b73ffffffffffffffffffffffffffffffffffffffff331660009081526020819052604090205490565b60015490565b60025473ffffffffffffffffffffffffffffffffffffffff1681565b6001805460020290555600a165627a7a72305820f12704c74d44d0c589032b63ce11a16c2106ab2d635e276eb8c4126931a1af7f0029",
+  "real_runtime_bytecode": "6060604052361561007f5763ffffffff7c01000000000000000000000000000000000000000000000000000000006000350416626b8b1481146100845780632a1afcd91461009c57806360fe47b1146100c15780636193c91b146100d75780636d4ce63c146100ea5780638da5cb5b146100fd5780638fdb718914610139575b600080fd5b341561008f57600080fd5b61009a60043561014c565b005b34156100a757600080fd5b6100af610186565b60405190815260200160405180910390f35b34156100cc57600080fd5b61009a60043561018c565b34156100e257600080fd5b6100af6101a6565b34156100f557600080fd5b6100af6101cf565b341561010857600080fd5b6101106101d5565b60405173ffffffffffffffffffffffffffffffffffffffff909116815260200160405180910390f35b341561014457600080fd5b61009a6101f1565b6001556002805473ffffffffffffffffffffffffffffffffffffffff19163373ffffffffffffffffffffffffffffffffffffffff16179055565b60015481565b60018190558060405190815260200160405180910390a050565b73ffffffffffffffffffffffffffffffffffffffff331660009081526020819052604090205490565b60015490565b60025473ffffffffffffffffffffffffffffffffffffffff1681565b6001805460020290555600a165627a7a72305820f12704c74d44d0c589032b63ce11a16c2106ab2d635e276eb8c4126931a1af7f0029",
+  "swarm_hash": "f12704c74d44d0c589032b63ce11a16c2106ab2d635e276eb8c4126931a1af7f",
+  "gas_estimates": {
+    "creation": [
+      154,
+      110400
+    ],
+    "external": {
+      "double()": 20471,
+      "get()": 458,
+      "owner()": 495,
+      "playField(uint256)": 40360,
+      "retsOwner()": 513,
+      "set(uint256)": 20859,
+      "storedData()": 392
+    },
+    "internal": {}
+  },
+  "function_hashes": {
+    "double()": "8fdb7189",
+    "get()": "6d4ce63c",
+    "owner()": "8da5cb5b",
+    "playField(uint256)": "006b8b14",
+    "retsOwner()": "6193c91b",
+    "set(uint256)": "60fe47b1",
+    "storedData()": "2a1afcd9"
+  },
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "initialValue",
+          "type": "uint256"
+        }
+      ],
+      "name": "playField",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "storedData",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "x",
+          "type": "uint256"
+        }
+      ],
+      "name": "set",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "retsOwner",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "get",
+      "outputs": [
+        {
+          "name": "retVal",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "owner",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "double",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ]
+}

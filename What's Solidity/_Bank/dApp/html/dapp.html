@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Bank</title>
+    <link rel="stylesheet" href="../css/dapp.css">
+  </head>
+  <body>
+    <form id="selectAddr">
+      <input type="text" id="nName" name="" value="Thijs" placeholder="set nickname">
+      <select id='addrContrainer'></select>  <!-- options set with js to web3.eth.accounts -->
+      <button id="setUser" type="button" name="button">Set User</button>
+      <p id="pSelectAddr">Select your account first and set your nickname</p>
+      <p id="pnName"></p>
+      <p id="pbalance"></p>
+    </form>
+
+    <h1>Bank</h1>
+    <form>
+        <button type="button" id="_1" name="button" >deposit to contract</button>
+        <input  type="text" id="input_1" name="setVal" placeholder="input_1" value="">
+    </form>
+    <form>
+        <button type="button" id="_2" name="button" disabled>withdraw from contract</button>
+        <input  type="text" id="input_2" name="setVal" placeholder="input_2" value="">
+    </form>
+    <form>
+        <button type="button" id="_3" name="button" disabled>Returns</button>
+        <input  type="text" id="input_3" name="setVal" placeholder="input_3" value="">
+    </form>
+
+    <div id="outputField">
+      <h2>outputField</h2>
+    </div>
+
+  </body>
+  <script src="../js/web3.min.js" charset="utf-8"></script>
+  <script src="../js/config.js" charset="utf-8"></script>
+  <script src="../js/dapp.js" charset="utf-8"></script>
+</html>

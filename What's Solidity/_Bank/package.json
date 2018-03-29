@@ -1,0 +1,16 @@
+{
+  "name": "the_basics",
+  "version": "1.0.0",
+  "description": "basics of solidity",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "d": "node deploy.js"
+  },
+  "author": "thijs",
+  "license": "ISC",
+  "dependencies": {
+    "solc": "^0.4.18",
+    "web3": "^0.20.1"
+  }
+}
